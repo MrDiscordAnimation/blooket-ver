@@ -1,0 +1,75 @@
+<center><video autoplay height="100%" width="100%" id="video" loop>
+    <source src="./bg_low_video?url=<%=vas_yt%>" type="video/mp4"></source>
+</video>
+</center>
+<div class="bg-text" id="test">
+<h1>Project DoIT!</h1>
+<button onclick="retfallback()">Server fail to load? Click here!</button>
+</div>
+<!--<audio src="./bg_audio?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsZHWlNKSFs4" controls id="audio"></audio>
+<script>
+    function runplay(){
+        document.getElementById("video").play()
+        document.getElementById("audio").play()
+    }
+    function runpause(){
+        document.getElementById("video").pause()
+        document.getElementById("audio").pause()
+    }
+    function runtoggle(){
+        if (!sessionStorage.bruh || sessionStorage.bruh == 1){
+            sessionStorage.bruh = 0
+            return runplay()
+        }
+        if (sessionStorage.bruh == 0){
+            sessionStorage.bruh = 1
+            return runpause()
+        }
+    }
+</script>
+<button onclick="runtoggle()">Play/Pause</button>-->
+<script>
+(function(){
+    console.log("Project DoIT!")
+    console.log("Warning! If someone asks you to paste anything in here, it will grant that person access to your account. If you know what you're doing, come and volunteer and work for us!")
+    console.log("Designed by Mr Discreet Animation#8833 or @mrdiscreetanimation on Discord")
+    console.log("Powered by Nan Munireachh Vityea. (mvityea@gmail.com or @nanmunireachhvityea on Telegram)")
+}())
+function retfallback(){
+    document.getElementById("test").innerHTML=`
+<h1>Project DoIT!</h1>
+<button>Play/Pause Video</button>
+<button>Mute Video</button>
+<p>Loading Screen...</p>
+<p>This project may not support on some iOS/iPadOS/macOS devices. As it's uses a autoplay render technology.</p>
+<p>This Project is heavily still under beta and does not represent the final quality.</p>
+`;
+document.getElementById("video").play();
+}
+</script>
+
+<style>
+body {
+    background-color: rgb(0,0,0);
+    color: white;
+}
+ video {
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+ }
+ .bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 40px;
+  text-align: center;
+}
+</style>

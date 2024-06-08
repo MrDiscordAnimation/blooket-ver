@@ -1,0 +1,35 @@
+{
+    "name": "MDA Officials The Game!",
+    "questions": [
+        "Who is this?<br><img src='https://discord.com/assets/092b071c3b3141a58787415450c27857.png'>",
+        "Does this picture represent a collab?<br><img src='https://images-cdn.kahoot.it/5a9e4979-0703-41ec-b718-415395ae982c?auto=webp&width=1000'>",
+        "Where can you see this image?<br><img src='https://images-cdn.kahoot.it/f77bce9e-907c-4d5d-aeed-6883556a3082?auto=webp&width=1000'>",
+        "Is a Black Hat Hacker good for society?<br><img src='https://images-cdn.kahoot.it/a415d028-08a4-449a-981e-2900f3251bb2?auto=webp&width=1000'>",
+        "Is this right? π*π/π+π-π=π",
+        "CG5 Lyrics: ______ is what you do!"
+    ],
+    "choices": [
+        ["Discord", "Wumpus", "Heil Hitler!", "Big Fat Gamer Website"],
+        ["Yes", "No", "I can see a donkey", "No, I can see fortnite."],
+        ["Ligma Team INC.", "CornHub", "The Mastery Diving Avaerage", "Mr Discord IT"],
+        ["Yes", "Russians", "Never Gonna Give you Up!", "No"],
+        ["Yes", "According to my calculations", "Nerd Emoji", "Rick Astley"],
+        ["Dancin'", "Hackin'", "Bashin'", "Killin'"]
+    ],
+    "answer": [
+        "Discord",
+        "Yes",
+        "Mr Discord IT",
+        "No",
+        "Yes",
+        "Dancin'"
+    ],
+    "points": [
+        1,
+        5,
+        100,
+        3,
+        500,
+        10000
+    ]
+}

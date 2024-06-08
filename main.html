@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Play DoIT!</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="DoIT! A Multiplayer question game!">
+    <meta property="og:title" content="Play DoIT">
+    <meta property="og:description" content="DoIT! A Multiplayer question game!">
+    <meta property="og:type" content="website">
+    <script src="./assets/respond.js"></script>
+</head>
+<style>
+body{
+    background-color: aquamarine;
+}
+.crimson {
+    color: crimson;
+}
+</style>
+<script>
+var facts=new Array()
+      //specify random words below. You can have as many as you wish
+      facts[1]="Ugly User Interface Designed by Vityea."
+      facts[2]="Kahoot & Blooket from Wish.com 💀"
+      facts[3]="Sponsored by Rick Astley."
+      facts[4]="CTRL+C and CTRL+V = Quizizz (Temu Verison)"
+      var ry=Math.floor(Math.random()*facts.length)
+      if (ry==0)
+      ry=1
+</script>
+<body onload="document.getElementById('quotes').innerText=facts[ry]">
+<h1>DoIT! <center><section class="crimson">Join a Game</section> or <a href="./login.html">Login</a></center></h1>
+<center>
+    <h2>DoIT!</h2>
+    <noscript>
+    <center class="crimson">You didn't enabled JavaScript! This website requires you to enable JavaScript to Login into the Game!</center>
+    </noscript>
+    <form action="./lobby.html" method="get">
+    <label for="gameID">Game ID:</label>
+    <input type="number" min="0000001" minlength="0000001" max="9999999" maxlength="9999999" placeholder="Game ID" name="gameID" id="gameID" required><br>
+    <label for="username">Username:</label>
+    <input type="text" placeholder="Username" name="username" id="username" required><br><br>
+    <button type="submit">Join!</button><br>
+</form>
+</center>
+<hr>
+<center><h3 id="quotes"></h3></center>
+</body>
+</html>

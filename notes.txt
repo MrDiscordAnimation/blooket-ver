@@ -1,0 +1,3 @@
+Temporary Notes for DoIT!
+Host receive Logs after starting the game
+Logs = User points how much they got.

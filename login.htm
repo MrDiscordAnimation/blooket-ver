@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Login into DoIT!</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="Login into DoIT!">
+    <meta property="og:title" content="Login into DoIT">
+    <meta property="og:description" content="Login into DoIT!">
+    <meta property="og:type" content="website">
+    <script src="./assets/respond.js"></script>
+</head>
+<style>
+body{
+    background-color: aquamarine;
+}
+.crimson {
+    color: crimson;
+}
+</style>
+<body>
+<h1>DoIT! <center><a href="./">Join a Game</a> or <section class="crimson">Login</section></center></h1>
+<center>
+    <h2>DoIT!</h2><noscript>
+    <center class="crimson">You didn't enabled JavaScript! This website requires you to enable JavaScript to Login into the Game!</center>
+    </noscript>
+    <form action="./login.html" method="post">
+    <label for="user"><p>Username:</p></label>
+    <input type="text" placeholder="Username" name="username" id="user" required><br>
+    <label for="pwd"><p>Password:</p></label>
+    <input type="password" placeholder="Password" name="password" id="pwd" required><br>
+    <button type="submit">Login</button>
+</form>
+</center>
+<hr>
+<center><h3 id="quotes">Built in 2023</h3></center>
+</body>
+</html>

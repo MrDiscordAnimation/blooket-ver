@@ -11,7 +11,6 @@ const path = require('path');
 const fs = require('fs');
 const ytdl = require('ytdl-core');
 const app = express();
-app.set('view engine', 'ejs'); 
 app.use(cookieParser());
 require('dotenv').config();
 const server = app.listen(3000, () => {
@@ -95,6 +94,8 @@ io.on('connection', socket => {
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(__dirname))
+app.set('view engine', 'ejs'); 
+app.set('views', path.join(__dirname, '../views'))
 app.get('/', (req, res) => {
 res.sendFile(path.join(__dirname, 'index.html'))
 })

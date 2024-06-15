@@ -1,0 +1,19 @@
+{
+    "email": "mvityea@gmail.com",
+    "username": "Nan Munireachh Vityea",
+    "avatar": "default.png",
+    "badges": ["Admin", "Hacker", "Early Member", "Developer"],
+    "info": {
+        "isAdmin": true,
+        "isUser": true,
+        "isPremium": true,
+        "premium": {
+            "expires": null,
+            "payment_method": "PayWay", 
+            "card_info": "KHQR",
+            "start": null,
+            "end": null,
+            "location": "Phnom Penh, Cambodia"
+        }
+    }
+}

@@ -96,7 +96,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(__dirname))
 app.get('/', (req, res) => {
-res.sendFile(path.join(__dirname, 'main.html'))
+res.sendFile(path.join(__dirname, 'index.html'))
 })
 
 app.get('/login.html', loginDetect, (req, res) => {
@@ -184,13 +184,21 @@ res.sendFile(path.join(__dirname, 'host.htm'))
 app.get('/debug', (req, res) => {
   var ytVids = new Array()
       //specify random image below. You can have as many as you wish
+      //I got no brinks tock
       ytVids[1]="https://www.youtube.com/watch?v=ZUY4-ZRw1qc"
+      //Mashup of You're mine
       ytVids[2]="https://www.youtube.com/watch?v=jaQz_8PYTgY"
-      ytVids[3]="https://www.youtube.com/watch?v=X1UMx06gJ5M"
+      //Thanos x Verbalse
+      ytVids[3]="https://www.youtube.com/watch?v=FIFQsTBKNUA"
+      //Mesmerizer
       ytVids[4]="https://www.youtube.com/watch?v=19y8YTbvri8"
+      //Blooket CryptoHack
       ytVids[5]="https://www.youtube.com/watch?v=vgxfySg5190"
+      //You're mine x Basics in Education
       ytVids[6]="https://www.youtube.com/watch?v=ESZkHVRla4g"
+      //Pedro
       ytVids[7]="https://www.youtube.com/watch?v=xEblpL1QQlg"
+      //Rick Roll
       ytVids[8]="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       var ry=Math.floor(Math.random()*ytVids.length)
       if (ry==0)

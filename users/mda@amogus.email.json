@@ -1,0 +1,19 @@
+{
+    "email": "mda@amogus.email",
+    "username": "Mr Discord Animation",
+    "avatar": "default.png",
+    "badges": ["Admin", "Hacker", "Early Member", "Developer"],
+    "info": {
+        "isAdmin": true,
+        "isUser": true,
+        "isPremium": true,
+        "premium": {
+            "expires": null,
+            "payment_method": "PayWay", 
+            "card_info": "VISA",
+            "start": "4286",
+            "end": "0206",
+            "location": "Phnom Penh, Cambodia"
+        }
+    }
+}
